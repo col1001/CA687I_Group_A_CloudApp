@@ -1,0 +1,20 @@
+1. install python
+2. download recommender folder from google drive
+3. copy spotify dataset into recommender folder
+
+cmd prompt:
+2. pip install pandas
+3. pip install scipy
+4. pip install tabpy
+5. Open 2 cmd prompt windows with admin permissions
+6. go to recommender folder in each window
+7. window 1 enter: tabpy
+8. window 2 enter: python recommender.py
+
+Tableau:
+9. open the tableau sheet
+10. At top bar click help->Setting and performance->Manage Analytic extension connections
+11. Change extension to Tabpy
+12. Change server to localhost, port = 9004
+13. click test connection (tests connection to tabpy server started earlier in the cmd prompt
+14. go back to the sheet, move a parameter, values printed should update
