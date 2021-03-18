@@ -29,7 +29,7 @@ def rec(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10,
     _arg15 = arg15[0]
     _arg16 = arg16[0]
 
-    data = pd.read_csv('data_cleaned_and_pruned.csv')
+    data = pd.read_csv('data_cleaned_and_pruned.csv', delimiter="|")
 
     search = pd.DataFrame([[_arg1, _arg2, _arg3, _arg4, _arg5, _arg6, _arg7, _arg8, _arg9, _arg10, _arg11, _arg12, _arg13, _arg14, _arg15]])
 
